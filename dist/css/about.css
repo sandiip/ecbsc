@@ -1,0 +1,53 @@
+body{
+    background:#051d39;
+    background-image: url(https://static-cf.toppr.com/marketing/79f02b8/images/about-us/background-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 210px;
+    background-position: bottom;
+}
+.section-one{
+    background-image: url("../vender/About-background.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 500px;
+}
+.section-one .heroMain .fa{
+    margin-top: 30px;
+    font-size: 80px;
+    background: #e7dddd;
+    border: 8px solid #ffffffd1;
+    color: #fff !important;
+    padding: 20px;
+    border-radius: 56%;
+}
+.section-one .heroMain h1{
+    font-size: 50px;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+}
+.section-one .heroMain p{
+    font-size: 20px;
+    letter-spacing: 2px;
+   
+}
+.about1st-col{
+    background: #fff;
+    position: relative;
+    top: -155px;
+    text-align: center;
+    padding: 65px 23px;
+    box-shadow: 0 0 54px -12px;
+    border-radius: 20px;
+}
+.aboutUs-contant{
+    background: #0302025c;
+    color: #ffffff8a;
+    padding: 10px 100px;
+}
+.abouImg img{
+     
+    position: relative;
+    left: 140px;
+    z-index: 1;
+    top: 65px;
+}
