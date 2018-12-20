@@ -30,6 +30,9 @@ body{
     letter-spacing: 2px;
    
 }
+.stc-i{
+    z-index: 1;
+}
 .about1st-col{
     background: #fff;
     position: relative;
@@ -39,15 +42,29 @@ body{
     box-shadow: 0 0 54px -12px;
     border-radius: 20px;
 }
-.aboutUs-contant{
+.aboutUs-contant, .sf-contant{
     background: #0302025c;
     color: #ffffff8a;
     padding: 10px 100px;
 }
-.abouImg img{
-     
-    position: relative;
-    left: 140px;
+.aboutUs-contant p, .sf-contant p {   
+    line-height: 2;
+    font-size: 20px;
+    color: #fff;
+}
+.aboutUs-contant h1, .sf-contant h1 {
+    padding: 40px 0;
+    
+}
+
+  .sf-img img, .aboutImg img{     
+    position: relative;  
     z-index: 1;
     top: 65px;
+}
+.sf-img img{
+    margin-left: -55px;
+}
+.section-Four{
+    margin-top: 15%;
 }
